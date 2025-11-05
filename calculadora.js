@@ -50,7 +50,7 @@ function menu() {
                 const { a, b} = ingresar_valor();
                 switch (opcion) {
                     case 1:
-                        console.log("El resultado de la suma 9es:", sumar(a, b));
+                        console.log("El resultado de la suma es:", sumar(a, b));
                         break;
                     case 2:
                         console.log("El resultado de la resta es:", restar(a, b));
